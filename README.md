@@ -22,9 +22,9 @@
     - 以 push button A 控制第二組文字顯示，文字長度 40
     - 以 push button 4 控制文字左移
     - 以 push button D 控制文字右移
-    - 以 push button BTN1 控制 Clear Display
-    - 以 push button BTN2 控制 Return Home
-    - 以 push button BTN4 控制 Cursor on/off
+    - 以 push button BTN1 控制 `Clear Display`
+    - 以 push button BTN2 控制 `Return Home`
+    - 以 push button BTN4 控制 `Cursor on/off`
 
 #### Lab4 PWM (Pulse-WidthModulator)
 - 錄放音機設計規格：
@@ -41,9 +41,9 @@
     - 將日期/時間顯示在 LCM
         - 第一行顯示日期/時間： 月/日與時/分/秒，例：`05/09   05:08:06`
         - 碼錶功能規格：
-            1. 按下 BTN1 進入碼錶功能，第二行顯示碼錶計時顯示及狀態，計時顯示在最左邊，格式為 00:00:00 (時:分:秒)，最右邊顯示 StopWatch 狀態
-            2. 按下 BTN4 碼錶開始計時，最右邊顯示 Counting 狀態
-                - 再按一次 BTN4，暫停碼錶計時，最右邊顯示 Stop 狀態
-                - 在 Stop 狀態，再按一次 BTN4，碼錶繼續計時，依此類推
-            3. 按 BTN2，碼錶計時重設為 00:00:00，最右邊顯示 StopWatch 狀態
+            1. 按下 BTN1 進入碼錶功能，第二行顯示碼錶計時顯示及狀態，計時顯示在最左邊，格式為 `00:00:00` (時:分:秒)，最右邊顯示 `StopWatch` 狀態
+            2. 按下 BTN4 碼錶開始計時，最右邊顯示 `Counting` 狀態
+                - 再按一次 BTN4，暫停碼錶計時，最右邊顯示 `Stop` 狀態
+                - 在 `Stop` 狀態，再按一次 BTN4，碼錶繼續計時，依此類推
+            3. 按 BTN2，碼錶計時重設為 `00:00:00`，最右邊顯示 `StopWatch` 狀態
             4. 計時過程中，如按下 BTN3，結束碼錶計時；第二列清空
