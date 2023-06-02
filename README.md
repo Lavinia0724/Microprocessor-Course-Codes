@@ -12,8 +12,8 @@
 #### Lab2 7-Segment Control & Key-Matrix
 - 自由選定 10 個 Push Buttons 為不同數字輸入，按下後必須將數字顯示在 7-Segment 上
 - 自由選定 2 個 Push Buttons 作跑馬燈控制：
-    - 1 個控制由左到右之跑馬燈，最末位數字 (最後按下數字)先飛入，數字必須完全飛出 7-Segment 後，再將 4 個數字顯示在 7-Segment 後，靜止不動
-    - 1 個控制由右到左之跑馬燈，第一位數字 (最先按下數字)先飛入，數字必須完全飛出 7-Segment 後，再將 4 個數字顯示在 7-Segment 後，靜止不動
+    - 1 個控制由左到右之跑馬燈，最末位數字 (最後按下數字) 先飛入，數字必須完全飛出 7-Segment 後，再將 4 個數字顯示在 7-Segment 後，靜止不動
+    - 1 個控制由右到左之跑馬燈，第一位數字 (最先按下數字) 先飛入，數字必須完全飛出 7-Segment 後，再將 4 個數字顯示在 7-Segment 後，靜止不動
         > 跑馬燈效果：數字必須慢慢移入，不能太快
 
 #### Lab3 LCM Control 
@@ -33,7 +33,7 @@
     - 以 push button BTN1 控制錄音 (Record)，開始錄音，LCM 第二列顯示顯示 `Recording`
     - 以 push button BTN2 代表結束錄音，LCM 第二列顯示 `NoRecording`
     - 以 push button BTN3 控制錄音播放 (Play)，LCM 第二列顯示 `Playing`
-    - 以 push button BTN4 播放事先預錄的一首歌曲，LCM 第一列顯示歌名，LCM 第二列顯示 `Playinga Song.`
+    - 以 push button BTN4 播放事先預錄的一首歌曲，LCM 第一列顯示歌名，LCM 第二列顯示 `Playinga Song`
 
 #### Lab5 RTC (RealTimeClock)
 - 時鐘顯示與碼錶控制設計規格：
